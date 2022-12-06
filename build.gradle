@@ -31,6 +31,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+artifactoryPublish.skip = false
 allprojects {
     apply plugin: "com.jfrog.artifactory"
     apply plugin: 'java'
