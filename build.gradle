@@ -4,7 +4,13 @@ plugins {
 }
 
 repositories {
-    jcenter()
+    maven {
+        url 'http://1.117.196.4:8082/artifactory/gradle-virtual'
+        credentials {
+            username = "test"
+            password = "Jfrog@2022"
+        }
+    }
 }
 
 dependencies {
