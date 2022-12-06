@@ -48,14 +48,8 @@ artifactory {
             
         }
     }
-    
-    resolve {
-        repository {
-            repoKey = 'gradle-virtual'
-            username = "test"
-            password = "Jfrog@2022"
-            maven = true
-            
-        }
+    defaults {
+        publications('mavenJava')
+        publishArtifacts = true
     }
 }
