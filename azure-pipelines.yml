@@ -18,6 +18,7 @@ steps:
     sourceRepo: 'gradle-virtual'
     artifactoryDeployerService: 'art'
     targetRepo: 'gradle-dev-local'
+    usesPlugin: true
     useWrapper: true
     deployIvyDesc: false
     collectBuildInfo: true
